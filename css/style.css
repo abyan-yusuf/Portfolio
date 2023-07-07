@@ -452,11 +452,16 @@ blockquote {
   background-color: #202426;
   padding: 60px 80px;
 }
-.blog-a {
+.blog-a-comment {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   margin-left: 20px;
+}
+.blog-a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
 }
 .blog-a-1 {
   text-decoration: none;
