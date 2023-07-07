@@ -38,7 +38,7 @@ body {
 .row-2 {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   height: 100vh;
   text-align: center;
 }
@@ -408,6 +408,7 @@ blockquote {
   text-decoration: none;
   color: #bac964;
   display: inline-block;
+  transition: padding-right 0.25s;
 }
 .services-span {
   color: #bac964;
@@ -429,7 +430,7 @@ blockquote {
   padding-bottom: 30px;
 }
 .services-a:hover {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 .services-row-1 {
   display: flex;
@@ -471,14 +472,26 @@ blockquote {
   background-color: #333;
   flex-basis: 32%;
   display: block;
+  transition: transform 0.5s;
+}
+.blog-col-1:hover {
+  transform: translate(0, -2.5px);
 }
 .blog-col-2 {
   background-color: #333;
   flex-basis: 32%;
+  transition: transform 0.5s;
+}
+.blog-col-2:hover {
+  transform: translate(0, -2.5px);
 }
 .blog-col-3 {
   background-color: #333;
   flex-basis: 32%;
+  transition: transform 0.5s;
+}
+.blog-col-3:hover {
+  transform: translate(0, -2.5px);
 }
 .blog-a-img {
   width: 100%;
@@ -495,6 +508,7 @@ blockquote {
 .blog-p {
   color: rgba(255, 255, 255, 0.4);
   margin: 0 20px 20px 20px;
+  line-height: 26px;
 }
 .blog-2nd-row-2 {
   background-color: #333;
@@ -604,8 +618,8 @@ blockquote {
 .touch-a:hover {
   background-color: #a7b941;
 }
-.touch-a:active{
-  color:black;
+.touch-a:active {
+  color: black;
 }
 .touch-col-2 h3 {
   font-size: 30px;
@@ -631,7 +645,10 @@ blockquote {
   color: #2c3e50;
   margin-top: 30px;
 }
-textarea::placeholder, .your-name::placeholder, .your-email::placeholder, .your-phone::placeholder {
+textarea::placeholder,
+.your-name::placeholder,
+.your-email::placeholder,
+.your-phone::placeholder {
   font-family: Roboto;
   font-weight: 900;
 }
@@ -664,6 +681,9 @@ textarea::placeholder, .your-name::placeholder, .your-email::placeholder, .your-
   align-items: center;
   text-decoration: none;
 }
-.your-name:focus, .your-email:focus, .your-phone:focus, .message:focus{
+.your-name:focus,
+.your-email:focus,
+.your-phone:focus,
+.message:focus {
   background: #404040;
 }
