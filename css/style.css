@@ -42,6 +42,11 @@ body {
   height: 100vh;
   text-align: center;
 }
+.row-2 h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 400;
+}
 .row-2 h2 {
   font-size: 70px;
   color: white;
@@ -57,7 +62,7 @@ body {
 .featured-section {
   text-align: center;
   background-color: #202426;
-  padding: 120px 80px;
+  padding: 80px 120px;
 }
 .featured-row-1 {
   display: flex;
@@ -128,7 +133,7 @@ body {
 }
 .rusume {
   background-color: #202426;
-  padding: 60px 80px;
+  padding: 80px 120px;
 }
 .rezume-h3 {
   text-align: center;
@@ -221,7 +226,7 @@ body {
 }
 .about {
   background-color: #202426;
-  padding: 60px 80px;
+  padding: 80px 120px;
 }
 .about-row-1 {
   display: flex;
@@ -300,7 +305,7 @@ small {
 }
 .testimonial {
   background-color: #202426;
-  padding: 60px 80px;
+  padding: 80px 120px;
 }
 .a {
   color: #bac964;
@@ -359,7 +364,7 @@ blockquote {
 }
 .services {
   background-color: #202426;
-  padding: 60px 80px;
+  padding: 60px 120px;
 }
 .services-col-1 {
   background-color: #333;
@@ -436,7 +441,7 @@ blockquote {
 }
 .blog {
   background-color: #202426;
-  padding: 80px 60px;
+  padding: 80px 120px;
 }
 .blog-a-comment {
   text-decoration: none;
@@ -502,6 +507,7 @@ blockquote {
 }
 .blog-2nd-row-2 {
   background-color: #333;
+  padding: 30px 20px;
 }
 .blog-a-h3 {
   padding: 20px;
@@ -515,7 +521,7 @@ blockquote {
 }
 .touch {
   background-color: #202426;
-  padding: 80px 60px;
+  padding: 80px 120px;
 }
 .touch-h3 {
   text-align: center;
@@ -586,12 +592,6 @@ blockquote {
   margin-bottom: 30px;
   margin-left: 10px;
 }
-.touch-col-1 {
-  flex-basis: 55%;
-}
-.touch-col-2 {
-  flex-basis: 40%;
-}
 .touch-a {
   text-decoration: none;
   color: white;
@@ -634,6 +634,13 @@ blockquote {
 .address {
   color: #2c3e50;
   margin-top: 30px;
+}
+.touch-col-1 {
+  flex-basis: 59%;
+  margin-bottom: 20vh;
+}
+.touch-col-2 {
+  flex-basis: 39%;
 }
 textarea::placeholder,
 .your-name::placeholder,
